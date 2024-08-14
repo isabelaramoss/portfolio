@@ -105,7 +105,20 @@ header{
  color: var(--cta-color);
 }
 
+/*SECTIONS*/
+.section{
+ padding-top: 48px;
+}
 
+.section__title{
+ margin-bottom: 24px;
+ font-weight: var(--font-medium);
+ font-size: var(--size-title);
+}
+
+.skills__title, .projects__title h2 {
+ text-align: center;
+}
 
 /*HERO*/
 .hero{
