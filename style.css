@@ -405,7 +405,7 @@ header{
  font-size: var(--size-p-footer);
 }
 
-@media screen and (max-width: 36em){
+@media (max-width: 36em){
  .half__content__text h3{
   width: 100%;
   font-size: var(--size-p-regular);
@@ -424,6 +424,11 @@ header{
  .nav__list.active{
   right: 0;
   display: inline-block;
+  padding-left: 32px;
+ }
+
+ .nav__link:hover{
+  color: var(--cta-color);
  }
 
  .nav__list{
@@ -432,11 +437,10 @@ header{
   top: 7%;
   right: -100%;
   width: 100%;
-  min-height: 35vh;
+  min-height: 32vh;
   background-color: rgba(255, 107, 107, .85);
   transition: all .50s ease;
   padding-top: 16px;
-  padding-bottom: 16px;
  }
 
  .nav__link, .contact__btn{
@@ -447,7 +451,7 @@ header{
   display: block;
   padding: 16px;
   padding-left: 0;
-  font-size: var(--size-title);
+  font-size: var(--size-p-small);
  }
 
  .hero img{
@@ -475,10 +479,3 @@ header{
   width: 25rem;
  }
 }
-
-/* @media screen and (max-width: 536em){
- .half__content__text h3{
-  width: 100%;
-  font-size: var(--size-p-regular);
- }
-} */
