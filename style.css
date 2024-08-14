@@ -389,3 +389,18 @@ header{
  margin-left: 4px;
  margin-right: 0px;
 }
+
+/*FOOTER*/
+.footer{
+ background-color: var(--primary-color);
+ padding: 16px 0;
+}
+
+.footer__content{
+ text-align: center;
+}
+
+.footer__content p{
+ color: var(--white);
+ font-size: var(--size-p-footer);
+}
