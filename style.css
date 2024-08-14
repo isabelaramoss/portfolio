@@ -50,7 +50,7 @@ header{
 }
 
 .logo{
- font-family: 'Outfit', sans-serif;
+ font-family: 'Poppins', sans-serif;
  font-weight: var(--font-bold);
  color: var(--white);
  font-size: var(--size-title);
@@ -328,6 +328,7 @@ header{
 
 .span__linkedin{
  font-style: italic;
+ font-weight: var(--font-medium);
  transition: all .2s ease;
 }
 
