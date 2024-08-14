@@ -33,3 +33,50 @@
  text-decoration: none;
  color: var(--black);
 }
+
+header{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ width: 100%;
+ top: 0;
+ left: 0;
+ z-index: 100;
+ padding: 16px 32px;
+ background-color: var(--primary-color);
+ transition: all .50s ease;;
+}
+
+.logo{
+ font-family: 'Outfit', sans-serif;
+ font-weight: var(--font-bold);
+ color: var(--white);
+ font-size: var(--size-title);
+}
+
+.logo span{
+ color: var(--cta-color);
+}
+
+.nav__list{
+ display: flex;
+ align-items: center;
+}
+
+.nav__link, .contact__btn{
+ margin-left: 32px;
+}
+
+.nav__link, .btn, .contact__btn{
+ color: var(--white);
+ font-size: var(--size-p-regular);
+ font-weight: var(--font-medium);
+ transition: all .35s ease;
+ border: none;
+}
+
+.nav__link:hover{
+ color: var(--cta-color);
+}
+
+/*responsive menu*/
