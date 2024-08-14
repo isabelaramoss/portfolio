@@ -92,7 +92,18 @@ header{
 }
 
 /*responsive menu*/
+.nav__toggle, .nav__close{
+ font-size: var(--size-toggle-icon);
+ z-index: 10001;
+ cursor: pointer;
+ color: var(--white);
+ display: none;
+ transition: all .50s ease;
+}
 
+.nav__toggle:hover, .nav__close:hover{
+ color: var(--cta-color);
+}
 
 
 
