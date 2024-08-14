@@ -223,3 +223,85 @@ header{
 .skills__items__item p{
  margin-top: 8px;
 }
+
+/*PROJECTS*/
+.projects__cards{
+ display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+}
+
+.projects__card{
+ width: 21.87rem;
+ background-color: var(--light-gray);
+ border: 1px solid var(--primary-color);
+ border-radius: 8px;
+ box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+ overflow: hidden;
+ margin: 20px;
+ transition: all .50s ease;
+}
+
+.projects__card:hover{
+ transform: scale(1.02);
+}
+
+.projects__card img{
+ width: 100%;
+ height: auto;
+}
+
+.projects__card__content{
+ padding: 16px;
+}
+
+.projects__card__content h3{
+ font-size: var(--size-p-small);
+ margin-bottom: 16px;
+ text-align: center;
+ color: var(--primary-color);
+}
+
+.projects__card__tags{
+ display: inline-flex;
+ margin-left: 16px;
+ margin-bottom: 16px;
+}
+
+.projects__card__tags p{
+ font-size: var(--size-p-footer);
+ background-color: var(--secondary-color);
+ border: none;
+ border-radius: 16px;
+ padding: 4px 10px;
+ margin-right: 24px;
+}
+
+.descr{
+ text-align: justify;
+ height: auto;
+ line-height: 1.5rem;
+ width: 95%;
+}
+
+.descr span{
+ font-weight: var(--font-semibold);
+}
+
+.projects__card__btn{
+ display: flex;
+ margin-top: 24px;
+ margin-bottom: 16px;
+ width: 80%;
+}
+
+
+.btn__code{
+ background-color: var(--lighter-gray);
+ color: var(--cta-color);
+ border: 1.2px solid var(--cta-color);
+}
+
+.btn__code:hover{
+ background-color: var(--dark-light-gray);
+}
