@@ -190,3 +190,36 @@ header{
 .btn__download i{
  margin-right: 8px;
 }
+
+/*SKILLS*/
+.skills{
+ width: 100%;
+}
+
+.skills__items{
+ display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(8rem, 8fr));
+ grid-gap: 1rem;
+ width: 100%;
+}
+
+.skills__items__item{
+ width: 100%;
+ position: relative;
+ transition: all .30s ease;
+ vertical-align: bottom;
+ text-align: center;
+}
+
+.skills__items__item:hover{
+ transform: translateY(-5px) scale(1.08);
+}
+
+.skills__items__item i{
+ font-size: var(--size-title);
+ color: var(--primary-color);
+}
+
+.skills__items__item p{
+ margin-top: 8px;
+}
