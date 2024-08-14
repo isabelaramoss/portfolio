@@ -1,0 +1,35 @@
+:root{
+ /*Colors*/
+ --primary-color: #ff6b6b;
+ --secondary-color: #FFCB77;
+ --cta-color: #227C9D;
+ --hover-cta-color: #0e5c79;
+ --black: #1F1F1F;
+ --gray: #A59E9E;
+ --light-gray: #F9F4F4;
+ --white: #fff;
+
+ /*Font sizes*/
+ --size-toggle-icon: 1.87rem;
+ --size-h1: 2rem;
+ --size-title: 1.5rem;
+ --size-p-regular: 1rem;
+ --size-p-small: 1.25rem;
+ --size-p-footer: .8rem;
+
+ /*Font weight*/
+ --font-regular: 400;
+ --font-medium: 500;
+ --font-semibold: 600;
+ --font-bold: 700;
+}
+
+*{
+ box-sizing: border-box;
+ margin: 0 auto;
+ padding: 0;
+ font-family: 'Roboto', san-serif;
+ list-style: none;
+ text-decoration: none;
+ color: var(--black);
+}
