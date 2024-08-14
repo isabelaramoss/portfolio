@@ -79,4 +79,90 @@ header{
  color: var(--cta-color);
 }
 
+.btn{
+ background-color: var(--cta-color);
+ border-radius: 8px;
+ padding: 12px 16px;
+ font-weight: 600;
+ cursor: pointer;
+}
+
+.btn:hover{
+ background-color: var(--hover-cta-color);
+}
+
 /*responsive menu*/
+
+
+
+
+/*HERO*/
+.hero{
+ display: flex;
+ justify-content: center;
+ background-color: var(--secondary-color);
+}
+
+.half{
+ display: block;
+}
+
+.half__img{
+ display: flex;
+ justify-content: center;
+ margin-top: 32px;
+ margin-bottom: 24px;
+}
+
+.half__img img{
+ height: 14.37rem;
+ width: 40%;
+}
+
+.half__content__text{
+ text-align: center;
+ margin-bottom: 40px;
+}
+
+.half__content__text h1{
+ margin-bottom: 16px;
+ font-size: var(--size-h1);
+ font-family: 'Outfit', sans-serif;
+ font-weight: var(--font-bold);
+ font-style: italic;
+}
+
+.half__content__text h3{
+ font-size: var(--size-p-small);
+ font-weight: var(--font-medium);
+ margin-bottom: 8px;
+ width: 100%;
+ line-height: 1.5rem;
+ padding: 0 16px;
+}
+
+.half__content__btn{
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ margin-bottom: 8px;
+}
+
+.half__content__btn__center{
+ display: inline-block;
+ text-align: center;
+ margin-bottom: 32px;
+}
+
+
+.btn__social, .btn__download{
+ margin-left: 24px;
+}
+
+.btn__social i, .btn__download i{
+ color: var(--white);
+}
+
+.btn__download i{
+ margin-right: 8px;
+}
