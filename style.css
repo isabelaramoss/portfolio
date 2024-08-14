@@ -404,3 +404,81 @@ header{
  color: var(--white);
  font-size: var(--size-p-footer);
 }
+
+@media screen and (max-width: 36em){
+ .half__content__text h3{
+  width: 100%;
+  font-size: var(--size-p-regular);
+ }
+
+ .contact__text p{
+  width: 100%;
+ }
+}
+
+@media screen and (max-width: 48em){
+ .nav__toggle{
+  display: block;
+ }
+
+ .nav__list.active{
+  right: 0;
+  display: inline-block;
+ }
+
+ .nav__list{
+  flex-direction: column;
+  position: absolute;
+  top: 7%;
+  right: -100%;
+  width: 100%;
+  min-height: 35vh;
+  background-color: rgba(255, 107, 107, .85);
+  transition: all .50s ease;
+  padding-top: 16px;
+  padding-bottom: 16px;
+ }
+
+ .nav__link, .contact__btn{
+  margin-left: 0;
+ }
+
+ .nav__link{
+  display: block;
+  padding: 16px;
+  padding-left: 0;
+  font-size: var(--size-title);
+ }
+
+ .hero img{
+  height: 9.37rem;
+  width: 50%;
+  margin: 8px 0;
+ }
+
+ .half__content__text h3{
+  width: 95%;
+ }
+
+ .contact__text p{
+  width: 90%;
+ }
+
+ .contact__form__content{
+  width: 100%;
+ }
+
+}
+
+@media screen and (min-width: 81.2em){
+ .projects__card{
+  width: 25rem;
+ }
+}
+
+/* @media screen and (max-width: 536em){
+ .half__content__text h3{
+  width: 100%;
+  font-size: var(--size-p-regular);
+ }
+} */
