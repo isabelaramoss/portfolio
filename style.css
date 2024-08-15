@@ -423,19 +423,19 @@ header{
 
  .nav__list.active{
   right: 0;
-  display: inline-block;
   padding-left: 32px;
+  display: inline-block;
  }
-
+ 
  .nav__link:hover{
   color: var(--cta-color);
  }
-
+ 
  .nav__list{
   flex-direction: column;
   position: absolute;
   top: 7%;
-  right: -100%;
+  right: 100%;
   width: 100%;
   min-height: 32vh;
   background-color: rgba(255, 107, 107, .85);
