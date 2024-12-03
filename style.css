@@ -216,57 +216,60 @@ header{
 }
 
 /*PROJECTS*/
-.projects__cards{
+.projects__container{
  display: flex;
- justify-content: center;
- flex-wrap: wrap;
+ justify-content: space-between;
+ gap: 24px;
+ margin: 0 32px;
 }
 
-.projects__card{
- width: 21.87rem;
+.project{
+ display: flex;
+ flex-direction: column;
+ width: 25rem;
+ height: 34rem;
+ position: relative;
  background-color: var(--light-gray);
- border: 1px solid var(--primary-color);
  border-radius: 8px;
- box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+ border: 1px solid var(--primary-color);
  overflow: hidden;
- margin: 20px;
+ box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
  transition: all .50s ease;
 }
 
-.projects__card:hover{
- transform: scale(1.02);
+.project:hover{
+ transform: scale(1.02)
 }
 
-.projects__card img{
+.project img{ 
  width: 100%;
- height: auto;
 }
 
-.projects__card__content{
- padding: 16px;
+.project__content{
+ padding: 8px;
+ margin: 8px;
+
+ > h3{
+  font-size: var(--size-p-small);
+  text-align: center;
+  color: var(--primary-color);
+  margin-bottom: 16px;
+ }
 }
 
-.projects__card__content h3{
- font-size: var(--size-p-small);
- margin-bottom: 16px;
- text-align: center;
- color: var(--primary-color);
-}
-
-.projects__card__tags{
+.project__content__tags{
  display: inline-flex;
- margin-left: 16px;
- margin-bottom: 16px;
-}
+ margin:0 0 16px 8px;
 
-.projects__card__tags p{
- font-size: var(--size-p-footer);
- background-color: var(--secondary-color);
- border: none;
- border-radius: 16px;
- padding: 4px 10px;
- margin-right: 24px;
-}
+ > p {
+  font-size: var(--size-p-footer);
+  background-color: var(--secondary-color);
+  border: none;
+  border-radius: 16px;
+  padding: 4px 10px;
+  margin-right: 24px;
+ }
+} 
 
 .descr{
  text-align: justify;
@@ -275,17 +278,16 @@ header{
  width: 95%;
 }
 
-.descr span{
- font-weight: var(--font-semibold);
-}
-
-.projects__card__btn{
+.btn_container{
  display: flex;
- margin-top: 24px;
- margin-bottom: 16px;
+ justify-content: space-between;
  width: 80%;
+ margin-top: auto;
+ right: 0;
+ left: 0;
+ position: absolute;
+ bottom: 20px;
 }
-
 
 .btn__code{
  background-color: var(--lighter-gray);
@@ -297,6 +299,7 @@ header{
  background-color: var(--gray-2);
 }
 
+/*CONTACT*/
 .contact{
  margin-bottom: 48px;
 }
@@ -453,6 +456,15 @@ header{
   width: 95%;
  }
 
+ .projects__container{
+  display: block;
+ }
+
+ .project{
+  margin-bottom: 32px;
+ }
+
+
  .contact__text p{
   width: 90%;
  }
@@ -464,7 +476,7 @@ header{
 }
 
 @media screen and (min-width: 81.2em){
- .projects__card{
-  width: 25rem;
+ .projects{
+  width: 80rem;
  }
 }
