@@ -299,7 +299,7 @@ header{
  background-color: var(--gray-2);
 }
 
-.btn__website:hover{
+.btn__website:hover, .btn__download:hover, .btn__social:hover{
  background-color: var(--hover-cta-color);
  color: var(--light-gray);
 }
