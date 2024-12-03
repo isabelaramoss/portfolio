@@ -56,7 +56,8 @@ header{
  font-size: var(--size-title);
 }
 
-.logo span{
+.logo span, .nav__link:hover, .btn:hover, 
+.nav__toggle:hover, .nav__close:hover{
  color: var(--cta-color);
 }
 
@@ -77,20 +78,12 @@ header{
  border: none;
 }
 
-.nav__link:hover{
- color: var(--cta-color);
-}
-
 .btn{
  background-color: var(--cta-color);
  border-radius: 8px;
  padding: 12px 16px;
  font-weight: 600;
  cursor: pointer;
-}
-
-.btn:hover{
- background-color: var(--hover-cta-color);
 }
 
 /*responsive menu*/
@@ -101,10 +94,6 @@ header{
  color: var(--white);
  display: none;
  transition: all .50s ease;
-}
-
-.nav__toggle:hover, .nav__close:hover{
- color: var(--cta-color);
 }
 
 /*SECTIONS*/
