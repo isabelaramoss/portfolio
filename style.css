@@ -299,6 +299,11 @@ header{
  background-color: var(--gray-2);
 }
 
+.btn__website:hover{
+ background-color: var(--hover-cta-color);
+ color: var(--light-gray);
+}
+
 /*CONTACT*/
 .contact{
  margin-bottom: 48px;
